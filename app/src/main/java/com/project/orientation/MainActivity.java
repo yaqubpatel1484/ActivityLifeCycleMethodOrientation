@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Log.e("MainActivity","*************************************");
+
         Log.e("MainActivity","OnCreate");
         TextView tv = findViewById(R.id.tv);
         tv.setOnClickListener(new View.OnClickListener() {
